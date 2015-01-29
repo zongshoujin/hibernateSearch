@@ -22,4 +22,9 @@ public class HotelController {
 		this.hotelServiceImpl.save(hotel);
 		return "/hotel/save_success";
 	}
+	
+	@RequestMapping("/hotel/list")
+	public String list(){
+		return "/hotel/list";
+	}
 }

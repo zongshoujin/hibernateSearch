@@ -89,6 +89,7 @@
 			<tx:method name="load*" propagation="REQUIRED"/>
 			<tx:method name="delete*" propagation="REQUIRED"/>
 			<tx:method name="insert*" propagation="REQUIRED"/>
+			<tx:method name="list*" propagation="REQUIRED"/>
 		</tx:attributes>
 	</tx:advice>
 	
